@@ -1,0 +1,11 @@
+sudo: false
+language: python
+python:
+  - '3.4'
+install: "./etc/install.sh"
+script: "./etc/build.sh"
+env:
+  global:
+    secure: "i7RP3TDTFPr2f+oejSWA31LZkictPwz2DjWGuUv7nwa9D+mGG+rh+xOPUIHNv8Cw4o8TSxE6PwQlbMHBFyV6AVvwg6Q3zzDT+4qOs2GAyvF2rbNDdlnC9SlfMjR7p5JXHRFkLFJk54EjOvKmIWlKBCigW9yUJF1ZZFRCqTcrIaA="
+notifications:
+  email: false
