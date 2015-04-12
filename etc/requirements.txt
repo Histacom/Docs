@@ -1,4 +1,4 @@
 sphinx==1.2
 pystache==0.5.4
 requests==2.5.3
--e git+https://github.com/Histacom/histadocs_theme.git#egg=sponge_docs_theme
+-e git+https://github.com/Histacom/histatheme.git#egg=histatheme
