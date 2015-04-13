@@ -18,3 +18,4 @@ Contents
     :titlesonly:
 
     introduction
+    team
